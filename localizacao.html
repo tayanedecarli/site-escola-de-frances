@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localização | Cultura Francesa  </title>
+    <meta name="description" content="Escola de ensino da língua francesa">
+    <meta name="keywords" content="Escola de Francês, lingua francesa">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Tayane De Carli"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/icons8-france-48.png">
+
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!--cabeçalho e Menu-->
+    <header class="cabecalho container">
+    <a href="index.html">
+        <img class="logo-icon" src="img/icons8-eiffel-64.png" width="60px" height="60px">
+        <h1 class="logo"></h1></a>
+    <button class="btn-menu"><i class="fas fa-bars fa-lg"></i></button>
+    <nav class="menu">
+        <a class="btn-close"><i class="fa fa-times"> </i></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    </header>
+    <!--banner-->
+    <div class="banner container">
+        <div class="title">
+            <a href="index.html"><h2>Cultura Francesa</h2></a>
+            <h3>Somos uma escola voltada ao ensino da língua francesa em Porto Alegre</h3>
+        </div>
+        <div class="buttons">
+            <button class="btn active btn-cadastrar">Cadastrar<i class="fa fa-arrow-circle-right"></i></button>
+            <button class="btn active btn-sobre">Sobre<i class="fa fa-question-circle"></i></button>
+        </div>
+    </div>
+    <!--Localizaçao-->
+    <div class="form container">
+        <form>
+            <h3 class="form_title">Visite-nos em nosso endereço</h3>
+            <h6>Rua 24 de outubro, 1454. Bairro Auxiliadora - Porto Alegre - RS.</h6>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.530663353882!2d-51.19651648471751!3d-30.021630137176558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979ced7deefd7%3A0x5141601d6561a448!2sR.%2024%20de%20Outubro%2C%201454%20-%20Auxiliadora%2C%20Porto%20Alegre%20-%20RS%2C%2090510-001!5e0!3m2!1spt-BR!2sbr!4v1667764578491!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </form>
+    </div>
+    <!--NewsLetter-->
+    <section class="newsletter container">
+        <h2>Inscreva-se agora!</h2>
+        <h3>Receba novidades, dicas e muito mais</h3>
+        <form> 
+            <input type="email" name="email" placeholder="Digite seu E-mail">
+            <button id="id-cadastrar" onclick="btnCadastrar();" value="Cadastrar">Cadastrar</button>
+        </form>
+    </section>
+    <!--Rodapé-->
+    <footer class="rodape container">
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+            <a href="#"><i class="fa fa-whatsapp"></i></a>
+        </div>
+        <p class="copyright">
+            © Copyright Cultura Francesa 2022. Todos os direitos reservados.
+        </p>
+    </footer>
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
+	
+    <script src="script.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>
